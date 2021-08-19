@@ -1,0 +1,20 @@
+services:
+  proxy:
+    image: nginx:1.21
+    ports:
+      - "80:80"
+    volumes:
+      - ./docker/proxy/conf.d:/etc/nginx/conf.d
+    depends_on:
+      - one
+      - two
+  one:
+    build:
+      context: ./example-one
+    volumes:
+      - ./example-one:/var/www/html
+  two:
+    build:
+      context: ./example-two
+    volumes:
+      - ./example-two:/var/www/html
