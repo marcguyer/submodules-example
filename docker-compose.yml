@@ -4,7 +4,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./docker/proxy/conf.d:/etc/nginx/conf.d
+      - ./docker/proxy/conf.d/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - one
       - two
