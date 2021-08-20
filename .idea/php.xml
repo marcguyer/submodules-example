@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/example-one/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/example-one/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/example-one/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/example-one/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/example-one/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/example-one/vendor/composer" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/example-one/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/example-one/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/example-one/vendor/sebastian/code-unit" />
+    </include_path>
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="b47ffdf0-97cb-4ddd-b2a6-cdbd79acccc1" name="one" home="docker-compose://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="one" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+          <type_data command="EXEC" />
+          <dockerComposeConfigurationPaths>
+            <item value="$PROJECT_DIR$/docker-compose.yml" />
+          </dockerComposeConfigurationPaths>
+          <envs />
+        </remote_data>
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="b47ffdf0-97cb-4ddd-b2a6-cdbd79acccc1" custom_loader_path="/var/www/html/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
