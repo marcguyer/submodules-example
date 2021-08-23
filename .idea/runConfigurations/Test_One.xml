@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test One" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <CommandLine>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="one" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <TestRunner class="AppTest\IndexTest" configuration_file="$PROJECT_DIR$/example-one/phpunit.xml.dist" file="$PROJECT_DIR$/example-one/test/IndexTest.php" scope="XML" use_alternative_configuration_file="true" />
+    <method v="2" />
+  </configuration>
+</component>
