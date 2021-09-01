@@ -106,12 +106,22 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="localhost" id="cbee3240-5fa5-4b0c-bb62-13ff54e0fa6d" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/example-one/public" remote-root="/var/www/html/public" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
       <phpunit_by_interpreter interpreter_id="b47ffdf0-97cb-4ddd-b2a6-cdbd79acccc1" custom_loader_path="/var/www/html/vendor/autoload.php" phpunit_phar_path="" />
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/example-one/vendor/autoload.php" />
     </phpunit_settings>
   </component>
 </project>
