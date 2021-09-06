@@ -14,6 +14,8 @@ services:
       context: ./example-one
     volumes:
       - ./example-one:/var/www/html
+    environment:
+      - XDEBUG_MODE=${XDEBUG_MODE}
   two:
     build:
       context: ./example-two
