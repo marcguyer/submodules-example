@@ -16,6 +16,8 @@ services:
       - ./example-one:/var/www/html
     environment:
       - XDEBUG_MODE=${XDEBUG_MODE}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
   two:
     build:
       context: ./example-two
