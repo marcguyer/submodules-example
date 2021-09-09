@@ -39,6 +39,7 @@
       <excludeFolder url="file://$MODULE_DIR$/example-one/vendor/sebastian/exporter" />
       <excludeFolder url="file://$MODULE_DIR$/example-one/vendor/sebastian/environment" />
       <excludeFolder url="file://$MODULE_DIR$/example-one/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/example-one/vendor/squizlabs/php_codesniffer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
