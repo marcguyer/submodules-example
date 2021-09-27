@@ -3,6 +3,7 @@
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <phpcs_by_interpreter interpreter_id="b47ffdf0-97cb-4ddd-b2a6-cdbd79acccc1" beautifier_path="/var/www/html/vendor/bin/phpcbf" standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="/var/www/html/vendor/bin/phpcs" timeout="30000" />
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/example-one/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/example-one/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpIncludePathManager">
